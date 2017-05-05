@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source js'], atom-text-editor[data-grammar='source js jsx']": [
+      {
+        "label": "Format With Guacamole",
+        "command": "prettier:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Guacamole",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "upgraded-guacamole:format"
+            },
+            {
+              "label": "Debug",
+              "command": "upgraded-guacamole:debug"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

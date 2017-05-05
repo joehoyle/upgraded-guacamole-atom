@@ -1,0 +1,17 @@
+{
+  "name": "upgraded-guacamole-atom",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Run upgraded-guacamole on the current file.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/upgraded-guacamole-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "ignore": "^3.2.7",
+    "loophole": "^1.1.0"
+  }
+}
